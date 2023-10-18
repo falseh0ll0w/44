@@ -618,3 +618,19 @@ step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartup
 5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
 True
 
+session_ended: {'session_id': '66cbe450-4d3e-4f98-9a18-00c3139c04bc'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
