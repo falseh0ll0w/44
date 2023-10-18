@@ -294,6 +294,8 @@ class LibrarySorter:
                     heapq.heappush(heap, [lo[0] + hi[0]] + lo[1:] + hi[1:])
                 return len(heap[0][1][1])
                     import heapq
+
+
                     import os
                     from collections import defaultdict
                     from PyPDF2 import PdfFileMerger
