@@ -1,0 +1,55 @@
+Signature-Version: 1.0
+Created-By: 11.0.17 (Eclipse Adoptium)
+SHA-256-Digest-Manifest: Byo4mM0/aec2/cN+c0NxeUyOkclgbU3nnc3AfDm3EWo=
+SHA-256-Digest-Manifest-Main-Attributes: k6i1mQsy7F1yeoPqdH0Y9nhTaPZD83Z
+ EJO5KqjgYbIQ=
+
+Name: plugin.xml
+SHA-256-Digest: 1Iz6y+qFSd3bwQ129Rbf11JzyDamLsP2kDWKkDBYCqM=
+
+Name: schema/org.python.pydev.pydev_simpleassist.exsd
+SHA-256-Digest: /VgG8wC4qeOMDF+JOFDR7igaTssEZa+AtJHrtBGweqA=
+
+Name: schema/org.python.pydev.pydev_manager_observer.exsd
+SHA-256-Digest: f/R9WbME7trWJ0Dj1gui4XJk1BEs2DOBrp6qT+r7FFI=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.ast/pom.xml
+SHA-256-Digest: DX2Doh5S5c+LBnqw40TGyEfdoAFujsP3QH2wVe15HbY=
+
+Name: schema/org.python.pydev.pydev_modules_observer.exsd
+SHA-256-Digest: o7mZZjdxjlvZ2qEOAlfXE2LtjTD7JTp21Yd0+gIT6AM=
+
+Name: schema/org.python.pydev.pydev_interpreter_new_custom_entries.exsd
+SHA-256-Digest: oBDSmcFMT6NYKWnIb6yjtY/t4YBPZVrYzZCVX5nLalA=
+
+Name: schema/org.python.pydev.pydev_pythonpath_contrib.exsd
+SHA-256-Digest: TalyV2T8nQiBNxenr0LJzqVbDSN9EVc3vwjYvc0dY+M=
+
+Name: schema/org.python.pydev.pydev_interpreter_observer.exsd
+SHA-256-Digest: rGYu/AaUX3UA1iUinABmxlsZXEVTcfICCOkLDfg+T90=
+
+Name: schema/org.python.pydev.pydev_builder.exsd
+SHA-256-Digest: lrgDHQS5SksPlyOdF4vmKnuXmeqYzEcG+TbqI5nicUQ=
+
+Name: schema/org.python.pydev.pydev_interpreter_info_builder.exsd
+SHA-256-Digest: td5q6t9CsZwpmlkxBn17okOeM7aSSc3s4fauOppPfkI=
+
+Name: LICENSE.txt
+SHA-256-Digest: fOblq82f98B3/rdOvYeVcVMcOSswqgq/CeoQ+yHS1HM=
+
+Name: schema/org.python.pydev.pydev_refactoring.exsd
+SHA-256-Digest: aN5nUmewk1nXTfIbMONPXePuH3AT/K5GgvALqMOQl3s=
+
+Name: schema/org.python.pydev.pydev_python_module_resolver.exsd
+SHA-256-Digest: qdGRi3E4AUubq7zcF6y2tpoVKZbGmgONrg9i1kGeM4k=
+
+Name: ast.jar
+SHA-256-Digest: rnd/MOv/AUfm/CWxbeWqUhObBpMB+LWdnzDnBtXPqVM=
+
+Name: schema/org.python.pydev.pydev_completion.exsd
+SHA-256-Digest: esIoBD7wRWMjH0NC3f+rSp9dvtrohBJwnCklSdTzj3o=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.ast/pom.propertie
+ s
+SHA-256-Digest: Twhf5tZASee0r5tu+LkKma27RWUlq2xAXrq+VHZqJFM=
+

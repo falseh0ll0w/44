@@ -514,3 +514,107 @@ step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartup
 5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
 True
 
+session_ended: {'session_id': '580608b5-83fd-4a71-b15d-02b9b7ecae9e'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'User Input', 'params': {'name': 'User Input', 'hide': False, 'description': '', 'class_name': 'UserInputStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': True, 'user_input': '#\tnew file:   .pydev_vscode/java19/jdk-19.0.2+7-jre/legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO\n#\tnew file:   .pydev_vscode/java19/jdk-19.0.2+7-jre/legal/java.xml.crypto/ASSEMBLY_EXCEPTION\n#\tnew file:   .pydev_vscode/java19/jdk-19.0.2+7-jre/legal/java.xml.crypto/LICENSE\n#\tnew file:   .pydev_vscode/java19/jdk-19.0.2+7-jre/legal/java.xml.crypto/santuario.md\n#\tnew file:   .pydev_vscode/java19/jdk-19.0.2+7-jre/legal/java.xml/ADDITIONAL_LICENSE_INFO\n#\tnew file:   .pydev_vscode/java19/jdk-19.0.2+7-jre/legal/java.xml/ASSEMBLY_EXCEPTION\n\n\nHow do I fix this problem in the above code?: "santuario": Unknown word.'}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'Generating Response...', 'params': {'name': 'Generating Response...', 'hide': False, 'description': '', 'class_name': 'SimpleChatStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': True, 'messages': None}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+model_use: {'model': 'gpt-4', 'provider': 'OpenAIFreeTrial'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+tokens_generated: {'model': 'gpt-4', 'tokens': 222}
+NO_UNIQUE_ID
+False
+
+tokens_generated: {'model': 'gpt-3.5-turbo', 'tokens': 15}
+NO_UNIQUE_ID
+False
+
+tokens_generated: {'model': 'gpt-3.5-turbo', 'tokens': 12}
+NO_UNIQUE_ID
+False
+
+session_ended: {'session_id': 'c553c0a6-703b-4638-bcac-54fdcf59230f'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'b7e8b17f-2748-4fd3-b848-41e31573b35a'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '6df70255-0bd1-4d59-9725-2f0b78aa9653'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'bbb349b8-90ac-4648-b70c-5986acf8f77c'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
