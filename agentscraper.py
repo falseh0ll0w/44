@@ -18,7 +18,7 @@ def scrape_url():
     save_location = filedialog.asksaveasfilename(defaultextension=".txt")
     with open(save_location, 'w') as file:
         file.write(extracted_code)
-    
+
     messagebox.showinfo("Save Location", f"Selected save location: {save_location}")
 
 # Function to scrape Python code from a webpage
@@ -55,10 +55,10 @@ from bs4 import BeautifulSoup
 def scrape_website(url):
     # Make a GET request to the website
     response = requests.get(url)
-    
+
     # Parse the HTML content using BeautifulSoup
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Extract the desired information from the HTML
     # ...
 
@@ -69,12 +69,12 @@ def scrape_website(url):
 def scrape_multiple_websites(urls):
     # Create an empty list to store the scraped data
     scraped_data = []
-    
+
     # Scrape each website in the given list of URLs
     for url in urls:
         data = scrape_website(url)
         scraped_data.append(data)
-    
+
     # Return the scraped data from all websites
     return scraped_data
 
@@ -82,7 +82,7 @@ def scrape_multiple_websites(urls):
 def save_webpage_as_pdf(url, filename):
     # Make a GET request to the webpage
     response = requests.get(url)
-    
+
     # Save the response content as a PDF file
     with open(filename, 'wb') as file:
         file.write(response.content)
@@ -91,16 +91,16 @@ def save_webpage_as_pdf(url, filename):
 def scrape_python_code(url, filename):
     # Make a GET request to the webpage
     response = requests.get(url)
-    
+
     # Parse the HTML content using BeautifulSoup
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Extract Python code from the HTML (assuming it is enclosed in <pre> tags)
     code_tags = soup.find_all('pre')
     python_code = ''
     for code_tag in code_tags:
         python_code += code_tag.get_text() + '\n'
-    
+
     # Save the extracted Python code as a text file
     with open(filename, 'w') as file:
         file.write(python_code)
@@ -140,24 +140,24 @@ from bs4 import BeautifulSoup
 def extract_python_code(url):
     # Send a GET request to the URL and fetch the webpage content
     response = requests.get(url)
-    
+
     # Check if the request was successful
     if response.status_code == 200:
         # Parse the HTML content using BeautifulSoup
         soup = BeautifulSoup(response.content, 'html.parser')
-        
+
         # Find all code blocks in the webpage
         code_blocks = soup.find_all('code')
-        
+
         # Extract the Python code from each code block
         extracted_code = []
         for code_block in code_blocks:
             code = code_block.get_text()
-            
+
             # Filter out non-Python code blocks
             if code.startswith('```python') or code.startswith('``` py'):
                 extracted_code.append(code)
-        
+
         return extracted_code
     else:
         return None
@@ -256,20 +256,20 @@ def calculate_advanced_math(num):
 def scrape_website(url):
     # Make a GET request to the website
     response = requests.get(url)
-    
+
     # Parse the HTML content using BeautifulSoup
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Extract relevant information from the webpage
     # Example: Extract all the links on the page
     links = soup.find_all('a')
-    
+
     # Perform advanced mathematics on the extracted data
     enhanced_links = []
     for link in links:
         enhanced_link = calculate_advanced_math(len(link.text))
         enhanced_links.append(enhanced_link)
-    
+
     return enhanced_links
 
 def save_webpage_as_pdf(url, filename):
@@ -283,10 +283,10 @@ def save_webpage_as_pdf(url, filename):
 def scrape_url_for_python_code(url, output_filename):
     # Make a GET request to the URL
     response = requests.get(url)
-    
+
     # Extract the python code from the response content
     python_code = extract_python_code(response.text)
-    
+
     # Save the python code as a text file
     with open(output_filename, 'w') as file:
         file.write(python_code)
@@ -366,11 +366,11 @@ def scrape_website(url):
     # Create a new Selenium Chrome driver
     driver = webdriver.Chrome()
     driver.get(url)
-    
+
     # Save the webpage as PDF
     driver.save_screenshot('webpage.png')
     os.system('google-chrome-stable --headless --screenshot --disable-gpu --window-size=1280x1024 webpage.png')
-    
+
     # Extract Python code from the webpage
     python_code = ""
     soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -378,27 +378,27 @@ def scrape_website(url):
     for code_block in code_blocks:
         if 'python' in code_block.get('class', []):
             python_code += code_block.text + "\n"
-    
+
     # Save the Python code as a text file
     with open('python_code.txt', 'w') as file:
         file.write(python_code)
-    
+
     # Close the driver
     driver.quit()
-    
+
     return python_code
 
 # Define the main function
 def main():
     # User-defined variables
     websites = ['https://example1.com', 'https://example2.com']  # Add more websites here if needed
-    
+
     # Scrape each website and enhance with advanced mathematics
     for website in websites:
         python_code = scrape_website(website)
         # Perform advanced mathematics techniques on the extracted Python code
         # Add your own code here to enhance the python_code variable
-        
+
         # Print the enhanced Python code for each website
         print(f"Enhanced Python code from {website}:")
         print(python_code)
@@ -455,19 +455,19 @@ from textblob import TextBlob
 def perform_sentiment_analysis(text):
     """
     Perform sentiment analysis on the extracted text from webpages.
-    
+
     Parameters:
     text (str): The text to perform sentiment analysis on
-    
+
     Returns:
     str: The sentiment of the text (positive, negative, or neutral)
     """
     # Create a TextBlob object for the text
     blob = TextBlob(text)
-    
+
     # Get the sentiment polarity of the text
     polarity = blob.sentiment.polarity
-    
+
     # Assign sentiment based on polarity
     if polarity > 0:
         sentiment = "positive"
@@ -475,7 +475,7 @@ def perform_sentiment_analysis(text):
         sentiment = "negative"
     else:
         sentiment = "neutral"
-    
+
     return sentiment
 
 import requests
@@ -488,18 +488,18 @@ from textblob import TextBlob
 def save_webpage_as_pdf(url, save_path):
     # Send a GET request to the URL
     response = requests.get(url)
-    
+
     # Create a BeautifulSoup object to parse the HTML content
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Create a PDF writer object
     pdf_writer = PyPDF2.PdfFileWriter()
-    
+
     # Iterate through all the elements containing text in the HTML content
     for element in soup.find_all(text=True):
         # Add each element as a new page in the PDF
         pdf_writer.addPage(PyPDF2.pdf.PageObject.createTextPage(element))
-    
+
     # Save the PDF file
     with open(save_path, 'wb') as file:
         pdf_writer.write(file)
@@ -507,27 +507,27 @@ def save_webpage_as_pdf(url, save_path):
 def scrape_url_for_python_code(url, save_path):
     # Send a GET request to the URL
     response = requests.get(url)
-    
+
     # Create a BeautifulSoup object to parse the HTML content
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Extract all the code blocks with the 'python' class
     python_code_blocks = soup.find_all('code', class_='python')
-    
+
     # Create a Python file to save the extracted code
     with open(save_path, 'w') as file:
         # Iterate through the code blocks and write the code to the file
         for code_block in python_code_blocks:
             file.write(code_block.get_text())
             file.write('\n')
-            
+
 def perform_sentiment_analysis(text):
     # Create a TextBlob object for the given text
     blob = TextBlob(text)
-    
+
     # Perform sentiment analysis and get the sentiment polarity
     sentiment_polarity = blob.sentiment.polarity
-    
+
     # Return the
 import requests
 from bs4 import BeautifulSoup
@@ -539,15 +539,15 @@ from rake_nltk import Rake
 def save_webpage_as_pdf(url, filename):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Create a PDF file
     pdf_file = open(filename, 'wb')
     pdf_writer = PyPDF2.PdfFileWriter()
-    
+
     # Convert each HTML element to PDF page
     for element in soup.find_all():
         pdf_writer.add_page(PyPDF2.pdf.PageObject.create_from_str(str(element)))
-    
+
     # Save the PDF file
     pdf_writer.write(pdf_file)
     pdf_file.close()
@@ -556,13 +556,13 @@ def save_webpage_as_pdf(url, filename):
 def scrape_url_for_python_code(url, filename):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Extract Python code from text
     python_code = ""
     for element in soup.find_all('code'):
         if detect(str(element)) == 'python':
             python_code += str(element)
-    
+
     # Save Python code as a text file
     with open(filename, 'w') as file:
         file.write(python_code)
@@ -595,13 +595,13 @@ import re
 def scrape_and_save(url):
     # Send GET request to the webpage
     response = requests.get(url)
-    
+
     # Create BeautifulSoup object
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Extract text from the webpage
     text = soup.get_text()
-    
+
     # Save webpage as PDF
     pdf_name = re.sub('[\W_]+', '', url) + '.pdf'
     with open(pdf_name, 'wb') as file:
@@ -609,35 +609,35 @@ def scrape_and_save(url):
         writer.add_page()
         writer.write(file)
         file.close()
-    
+
     return pdf_name
 
 # Function to extract Python code from a webpage and save as text file
 def extract_python_code(url):
     # Send GET request to the webpage
     response = requests.get(url)
-    
+
     # Create BeautifulSoup object
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Extract all code blocks from the webpage
     code_blocks = soup.find_all('pre', {'class': 'python'})
-    
+
     # Save Python code as text file
     code_name = re.sub('[\W_]+', '', url) + '.txt'
     with open(code_name, 'w') as file:
         for code_block in code_blocks:
             file.write(code_block.text + '\n')
-    
+
     return code_name
 
 # Function to perform keyword extraction on text extracted from webpages
 def keyword_extraction(text):
     # Implement your advanced mathematics techniques for keyword extraction here
-    
+
     # Placeholder for keyword extraction result
     keywords = ['keyword1', 'keyword2', 'keyword3']
-    
+
     return keywords
 
 # User query
@@ -802,18 +802,18 @@ from PyPDF2 import PdfWriter
 def save_webpage_as_pdf(url, output_dir):
     # Send GET request to the URL
     response = requests.get(url)
-    
+
     # Check if the request was successful
     if response.status_code == 200:
         # Create a BeautifulSoup object to parse the HTML content
         soup = BeautifulSoup(response.text, 'html.parser')
-        
+
         # Generate the PDF file name
         file_name = url.split('/')[-1].split('.')[0] + '.pdf'
-        
+
         # Create a PDF writer object
         pdf_writer = PdfWriter()
-        
+
         # Iterate over all the CSS files in the HTML content and add them to the PDF file
         for css in soup.find_all('link', {'rel': 'stylesheet'}):
             css_url = css['href']
@@ -825,7 +825,7 @@ def save_webpage_as_pdf(url, output_dir):
                 css_tag = soup.new_tag('style')
                 css_tag.string = css_content.decode()
                 soup.head.append(css_tag)
-        
+
         # Iterate over all the images in the HTML content and add them to the PDF file
         for img in soup.find_all('img'):
             img_url = img['src']
@@ -835,7 +835,7 @@ def save_webpage_as_pdf(url, output_dir):
                 with open(os.path.join(output_dir, img_url.split('/')[-1]), 'wb') as img_file:
                     img_file.write(img_content)
                 img['src'] = os.path.join(output_dir, img_url.split('/')[-1])
-        
+
         # Create the PDF file
         with open
 import requests
@@ -844,16 +844,16 @@ from bs4 import BeautifulSoup
 def extract_and_save_python_code(url, filename):
     # Send a GET request to the webpage
     response = requests.get(url)
-    
+
     # Parse the HTML content
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Find all code blocks with the Python language specified
     code_blocks = soup.find_all('code', class_='python')
-    
+
     # Extract the Python code from the code blocks
     python_code = [code.get_text() for code in code_blocks]
-    
+
     # Save the Python code to a text file
     with open(filename, 'w') as file:
         file.write('\n'.join(python_code))
@@ -869,20 +869,20 @@ from fpdf import FPDF
 def scrape_and_save_pdf(url, filename):
     # Send a GET request to the webpage
     response = requests.get(url)
-    
+
     # Create a BeautifulSoup object to parse the HTML
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Create a PDF object
     pdf = FPDF()
-    
+
     # Add a page to the PDF
     pdf.add_page()
-    
+
     # Loop through all the paragraphs in the HTML and add them to the PDF
     for paragraph in soup.find_all('p'):
         pdf.cell(0, 10, paragraph.text, ln=True)
-    
+
     # Save the PDF file
     pdf.output(filename, 'F')
 
@@ -933,40 +933,40 @@ import os
 def save_webpage_as_pdf(url, output_folder):
     # Send a GET request to the webpage
     response = requests.get(url)
-    
+
     # Parse the HTML content using BeautifulSoup
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Create a PDF writer object
     pdf_writer = PdfWriter()
-    
+
     # Extract all the text from the webpage and add it to the PDF writer
     text = soup.get_text()
     pdf_writer.add_page()
     pdf_writer.addBookmark("Webpage", 0, parent=None)
     pdf_writer.drawString(10, 800, text)
-    
+
     # Save the PDF file
     filename = os.path.join(output_folder, 'webpage.pdf')
     with open(filename, 'wb') as file:
         pdf_writer.write(file)
-    
+
     print(f"Webpage saved as PDF: {filename}")
 
 # Function to scrape a webpage and extract Python code, then save it as a text file
 def scrape_url_for_python_code(url, output_folder):
     # Send a GET request to the webpage
     response = requests.get(url)
-    
+
     # Parse the HTML content using BeautifulSoup
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Find all <pre> elements containing Python code
     code_blocks = soup.find_all('pre', class_='python')
-    
+
     # Extract the Python code from each code block
     python_code = [code.get_text() for code in code_blocks]
-    
+
     # Save the Python code as a text file
     filename = os.path.join(output_folder, 'python_code.txt')
     with open(filename, 'w') as file:
@@ -985,25 +985,25 @@ def save_webpage_as_pdf(url, output_file):
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--no-sandbox")
-    
+
     # Launch headless browser using ChromeDriver
     driver = webdriver.Chrome(options=chrome_options)
-    
+
     try:
         # Open the webpage
         driver.get(url)
-        
+
         # Wait for the page to load completely
         driver.implicitly_wait(10)
-        
+
         # Save the webpage as PDF using pdfkit
         from_file(driver.page_source, output_file)
-        
+
         print(f"Webpage saved as PDF: {output_file}")
-        
+
     except Exception as e:
         print(f"Error saving webpage as PDF: {e}")
-        
+
     finally:
         # Quit the browser
         driver.quit()
@@ -1017,22 +1017,22 @@ from bs4 import BeautifulSoup
 def scrape_url_for_python_code(url):
     # Send a GET request to the URL
     response = requests.get(url)
-    
+
     # Check if the request was successful
     if response.status_code == 200:
         # Parse the HTML content using BeautifulSoup
         soup = BeautifulSoup(response.content, 'html.parser')
-        
+
         # Find all code blocks with 'python' as the language attribute
         code_blocks = soup.find_all('code', {'class': 'python'})
-        
+
         # Extract the Python code from each code block
         python_code = [code.text for code in code_blocks]
-        
+
         # Save the Python code as a text file
         with open('python_code.txt', 'w') as file:
             file.write('\n'.join(python_code))
-            
+
         return 'Python code extracted and saved successfully!'
     else:
         return 'Failed to scrape the URL for Python code.'
@@ -1048,17 +1048,17 @@ from PyPDF2 import PdfWriter
 def save_webpage_as_pdf(url, filename):
     # Send a GET request to the webpage
     response = requests.get(url)
-    
+
     # Create a BeautifulSoup object to parse the HTML content
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Create a PDF writer object
     pdf_writer = PdfWriter()
-    
+
     # Add the HTML content to the PDF
     pdf_writer.add_page()
     pdf_writer.write(soup.prettify())
-    
+
     # Save the PDF file
     with open(filename, 'wb') as file:
         pdf_writer.write(file)
@@ -1067,19 +1067,19 @@ def save_webpage_as_pdf(url, filename):
 def scrape_url_for_python_code(url, filename):
     # Send a GET request to the webpage
     response = requests.get(url)
-    
+
     # Create a BeautifulSoup object to parse the HTML content
     soup = BeautifulSoup(response.content, 'html.parser')
-    
+
     # Find all code blocks in the HTML
     code_blocks = soup.find_all('code')
-    
+
     # Extract the Python code from the code blocks
     python_code = ''
     for code_block in code_blocks:
         if 'python' in code_block.get('class', []):
             python_code += code_block.text + '\n'
-    
+
     # Save the Python code as a text file
     with open(filename, 'w') as file:
         file.write(python_code)
