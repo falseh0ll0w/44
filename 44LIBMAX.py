@@ -229,175 +229,335 @@ class LibrarySorter:
                 """Sorts files based on their file type."""
                 for file in os.listdir(self.source_folder):
                     if os.path.isfile(os.path.join(self.source_folder, file)):
-                        _, file_extension = os.path.splitext(file)
-                        destination_folder = os.path.join(self.source_folder, file_extension[1:])
-                        os.makedirs(destination_folder, exist_ok=True)
-                        shutil.move(
-                            os.path.join(self.source_folder, file),
-                            os.path.join(destination_folder, file)
-                        )
-                        print(f"Moved file '{file}' to folder: {destination_folder}")
+                        import os
+                        import shutil
+                        from PyPDF2 import PdfFileMerger
 
-            def _sort_by_module_option(self):
-                """Sorts files based on their module."""
-                for file in os.listdir(self.source_folder):
-                    if os.path.isfile(os.path.join(self.source_folder, file)):
-                        _, file_extension = os.path.splitext(file)
-                        if file_extension in self.script_extensions:
-                            module_name = self._get_module_name(file)
-                            if module_name in self.module_names:
-                                destination_folder = os.path.join(self.source_folder, module_name)
-                                shutil.move(
-                                    os.path.join(self.source_folder, file),
-                                    os.path.join(destination_folder, file)
-                                )
-                                print(f"Moved file '{file}' to folder: {destination_folder}")
+                        class LibrarySorter:
+                            def __init__(self, source_folder, module_names=None):
+                                self.source_folder = source_folder
+                                self.module_names = module_names or []
+                                self.script_extensions = ['.py']
 
-            def _get_module_name(self, file_name):
-                """Returns the module name of a Python script."""
-                with open(os.path.join(self.source_folder, file_name), 'r') as f:
-                    for line in f:
-                        if line.startswith('import'):
-                            module_name = line.split()[1]
-                            return module_name.split('.')[0]
-                return 'other'
+                            def create_folders(self):
+                                """Creates folders for each module name."""
+                                for module_name in self.module_names:
+                                    os.makedirs(os.path.join(self.source_folder, module_name), exist_ok=True)
 
-            def _get_files_by_extensions(self, extensions):
-                """Returns a list of files in the source folder with the given extensions."""
-                files = []
-                for file in os.listdir(self.source_folder):
-                    if os.path.isfile(os.path.join(self.source_folder, file)):
-                        _, file_extension = os.path.splitext(file)
-                        if file_extension in extensions:
-                            files.append(os.path.join(self.source_folder, file))
-                return files
+                            def sort_folders(self, sorting_option):
+                                """Sorts files based on the selected sorting option."""
+                                if sorting_option == 'sorted_by':
+                                    self._sort_by_module_option()
+                                elif sorting_option == 'file_type':
+                                    self._sort_by_file_type_option()
 
-            def _read_text_file(self, file_path):
-                """Reads a text file and returns its contents."""
-                with open(file_path, 'r') as f:
-                    return f.read()
+                            def export_to_folder(self, destination_folder):
+                                from PyPDF2 import PdfFileMerger
+                                import os
+                                import shutil
 
-            def _calculate_optimized_huffman_length(self, text):
-                """Calculates the optimized Huffman length of a text."""
-                freq = defaultdict(int)
-                for symbol in text:
-                    freq[symbol] += 1
-                heap = [[weight, [symbol, ""]] for symbol, weight in freq.items()]
-                heapq.heapify(heap)
-                while len(heap) > 1:
-                    lo = heapq.heappop(heap)
-                    hi = heapq.heappop(heap)
-                    for pair in lo[1:]:
-                        pair[1] = '0' + pair[1]
-                    for pair in hi[1:]:
-                        pair[1] = '1' + pair[1]
-                    heapq.heappush(heap, [lo[0] + hi[0]] + lo[1:] + hi[1:])
-                return len(heap[0][1][1])
-                    import heapq
+                                class FileOrganizer:
+                                    def __init__(self, source_folder, script_extensions, module_names):
+                                        self.source_folder = source_folder
+                                        self.script_extensions = script_extensions
+                                        import os
+                                        import shutil
+                                        from PyPDF2 import PdfFileMerger, PdfFileReader
 
+                                        class FileOrganizer:
+                                            def __init__(self, source_folder, script_extensions, module_names):
+                                                self.source_folder = source_folder
+                                                self.script_extensions = script_extensions
+                                                self.module_names = module_names
 
-                    import os
-                    from collections import defaultdict
-                    from PyPDF2 import PdfFileMerger
+                                            def sort_files(self, sort_option):
+                                                if sort_option == 'module':
+                                                    self._sort_by_module_option()
+                                                elif sort_option == 'file_type':
+                                                    self._sort_by_file_type_option()
 
+                                            def _sort_by_module_option(self):
+                                                """Sorts files based on their module."""
+                                                for file in os.listdir(self.source_folder):
+                                                    if os.path.isfile(os.path.join(self.source_folder, file)):
+                                                        _, file_extension = os.path.splitext(file)
+                                                        if file_extension in self.script_extensions:
+                                                            module_name = self._get_module_name(file)
+                                                            if module_name in self.module_names:
+                                                                destination_folder = os.path.join(self.source_folder, module_name)
+                                                                os.makedirs(destination_folder, exist_ok=True)
+                                                                shutil.move(
+                                                                    os.path.join(self.source_folder, file),
+                                                                    os.path.join(destination_folder, file)
+                                                                )
+                                                                print(f"Moved file '{file}' to folder: {destination_folder}")
 
-                    class LibrarySorter:
-                        def __init__(self, source_folder, module_names=None):
-                            self.source_folder = source_folder
-                            self.module_names = module_names or []
+                                            def _sort_by_file_type_option(self):
+                                                """Sorts files based on their file type."""
+                                                for file in os.listdir(self.source_folder):
+                                                    if os.path.isfile(os.path.join(self.source_folder, file)):
+                                                        _, file_extension = os.path.splitext(file)
+                                                        destination_folder = os.path.join(self.source_folder, file_extension[1:])
+                                                        os.makedirs(destination_folder, exist_ok=True)
+                                                        shutil.move(
+                                                            os.path.join(self.source_folder, file),
+                                                            os.path.join(destination_folder, file)
+                                                        )
+                                                        print(f"Moved file '{file}' to folder: {destination_folder}")
 
-                        def create_folders(self):
-                            """Creates folders for each module name."""
-                            for module_name in self.module_names:
-                                os.makedirs(os.path.join(self.source_folder, module_name), exist_ok=True)
+                                            def _get_module_name(self, file_name):
+                                                """Returns the module name of a Python script."""
+                                                with open(os.path.join(self.source_folder, file_name), 'r') as f:
+                                                    for line in f:
+                                                        if line.startswith('import'):
+                                                            module_name = line.split()[1]
+                                                            return module_name.split('.')[0]
+                                                return 'other'
 
-                        def sort_folders(self, sorting_option):
-                            """Sorts files based on the selected sorting option."""
-                            if sorting_option == 'sorted_by':
-                                self._sort_by_module_option()
-                            elif sorting_option == 'file_type':
-                                self._sort_by_file_type_option()
+                                            def _get_files_by_extensions(self, extensions):
+                                                """Returns a list of files in the source folder with the given extensions."""
+                                                files = []
+                                                for file in os.listdir(self.source_folder):
+                                                    if os.path.isfile(os.path.join(self.source_folder, file)):
+                                                        _, file_extension = os.path.splitext(file)
+                                                        if file_extension in extensions:
+                                                            files.append(os.path.join(self.source_folder, file))
+                                                return files
 
-                        def export_to_folder(self, destination_folder):
-                            """Exports all files to the destination folder."""
-                            files = self._get_files_by_extensions(['.py', '.txt'])
-                            for file in files:
-                                shutil.move(
-                                    os.path.join(self.source_folder, file),
-                                    os.path.join(destination_folder, file)
-                                )
-                                print(f"Moved file '{file}' to folder: {destination_folder}")
+                                        class LibrarySorter:
+                                            def __init__(self, source_folder):
+                                                self.source_folder = source_folder
 
-                        def analyze_code_files(self):
-                            """Analyzes all code files in the source folder."""
-                            files = self._get_files_by_extensions(['.py'])
-                            for file in files:
-                                text = self._read_text_file(file)
-                                ohl = self._calculate_optimized_huffman_length(text)
-                                print(f"Optimized Huffman length of '{file}': {ohl}")
+                                            def merge_pdfs(self, destination_folder):
+                                                """Exports all PDF files in the source folder to the destination folder."""
+                                                pdf_files = self._get_files_by_extensions(['.pdf'])
+                                                merger = PdfFileMerger()
+                                                for pdf_file in pdf_files:
+                                                    merger.append(PdfFileReader(pdf_file, 'rb'))
+                                                merger.write(os.path.join(destination_folder, 'merged.pdf'))
+                                                print(f"Exported {len(pdf_files)} PDF files to folder: {destination_folder}")
 
-                        def _sort_by_file_type_option(self):
-                            """Sorts files based on their file type."""
-                            extensions = ['.py', '.txt']
-                            for file in os.listdir(self.source_folder):
-                                if os.path.isfile(os.path.join(self.source_folder, file)):
-                                    _, file_extension = os.path.splitext(file)
-                                    destination_folder = os.path.join(self.source_folder, file_extension[1:])
-                                    os.makedirs(destination_folder, exist_ok=True)
-                                    shutil.move(
-                                        os.path.join(self.source_folder, file),
-                                        os.path.join(destination_folder, file)
-                                    )
-                                    print(f"Moved file '{file}' to folder: {destination_folder}")
+                                            def _get_files_by_extensions(self, extensions):
+                                                """Returns a list of files in the source folder with the given extensions."""
+                                                files = []
+                                                for file in os.listdir(self.source_folder):
+                                                    if os.path.isfile(os.path.join(self.source_folder, file)):
+                                                        _, file_extension = os.path.splitext(file)
+                                                        if file_extension in extensions:
+                                                            files.append(os.path.join(self.source_folder, file))
+                                                return files
+                                        for file in os.listdir(self.source_folder):
+                                            if os.path.isfile(os.path.join(self.source_folder, file)):
+                                                _, file_extension = os.path.splitext(file)
+                                                if file_extension in extensions:
+                                                    files.append(os.path.join(self.source_folder, file))
+                                        return files
 
-                        def _sort_by_module_option(self):
-                            """Sorts files based on contained module names."""
-                            for file in os.listdir(self.source_folder):
-                                if os.path.isfile(os.path.join(self.source_folder, file)):
-                                    _, file_extension = os.path.splitext(file)
-                                    for module_name in self.module_names:
-                                        if module_name in file.lower():
-                                            destination_folder = os.path.join(self.source_folder, module_name)
-                                            os.makedirs(destination_folder, exist_ok=True)
-                                            shutil.move(
-                                                os.path.join(self.source_folder, file),
-                                                os.path.join(destination_folder, file)
-                                            )
-                                            print(f"Moved file '{file}' to module folder: {destination_folder}")
-                                            break
-
-                        def _get_files_by_extensions(self, extensions):
-                            """Finds all files with the given extensions in the source folder."""
+                            """Returns a list of files in the source folder with the given extensions."""
                             files = []
-                            for root, dirs, filenames in os.walk(self.source_folder):
-                                for filename in filenames:
-                                    if os.path.splitext(filename)[1] in extensions:
-                                        file_path = os.path.join(root, filename)
-                                        files.append(file_path)
+                            for file in os.listdir(self.source_folder):
+                                if os.path.isfile(os.path.join(self.source_folder, file)):
+                                    _, file_extension = os.path.splitext(file)
+                                    if file_extension in extensions:
+                                        files.append(os.path.join(self.source_folder, file))
                             return files
 
                         def _read_text_file(self, file_path):
-                            """Reads and returns the content of a text file."""
-                            with open(file_path, 'r') as file:
-                                return file.read()
+                            """Reads a text file and returns its contents."""
+                            with open(file_path, 'r') as f:
+                                return f.read()
 
-                        def _combine_pdfs(self, output_path, *file_paths):
-                            """Combines multiple PDF files into one."""
-                            merged_pdf = PdfFileMerger()
-                            for file_path in file_paths:
-                                merged_pdf.append(file_path)
-                            with open(output_path, 'wb') as output_file:
-                                merged_pdf.write(output_file)
+                        def _calculate_optimized_huffman_length(self, text):
+                            """Calculates the optimized Huffman length of a text."""
+                            freq = defaultdict(int)
+                            for symbol in text:
+                                freq[symbol] += 1
+                            heap = [[weight, [symbol, ""]] for symbol, weight in freq.items()]
+                            heapq.heapify(heap)
+                            while len(heap) > 1:
+                                lo = heapq.heappop(heap)
+                                hi = heapq.heappop(heap)
+                                for pair in lo[1:]:
+                                    import heapq
+                                    import os
+                                    import shutil
+                                    from PyPDF2 import PdfFileMerger
 
-                        def _calculate_optimized_huffman_length(self, data):
-                            """Calculates the optimized Huffman length of the given data."""
-                            frequency = self._calculate_frequencies(data)
-                            priority_queue = self._build_priority_queue(frequency)
-                            huffman_tree = self._build_huffman_tree(priority_queue)
-                            huffman_dict = self._build_huffman_dict(huffman_tree)
 
-                            ohl = 0
-                            for symbol in data:
+                                    class FileOrganizer:
+                                        def __init__(self, source_folder, module_names):
+                                            self.source_folder = source_folder
+                                            self.module_names = module_names
+
+                                        def organize_files(self, option):
+                                            """Organizes files based on the selected option."""
+                                            if option == 'file_type':
+                                                self._sort_by_file_type_option()
+                                            elif option == 'module':
+                                                self._sort_by_module_option()
+
+                                        def export_files(self, destination_folder):
+                                            import os
+                                            import shutil
+
+                                            class FileOrganizer:
+                                                def __init__(self, source_folder, module_names):
+                                                    self.source_folder = source_folder
+                                                    self.module_names = module_names
+
+                                                def organize_files(self, option):
+                                                    if option == 'file_type':
+                                                        self._sort_by_file_type_option()
+                                                    elif option == 'module':
+                                                        self._sort_by_module_option()
+                                                    else:
+                                                        print(f"Invalid option: {option}")
+
+                                                def export_files(self, destination_folder):
+                                                    """Exports all files to the destination folder."""
+                                                    files = self._get_files_by_extensions(['.py', '.txt'])
+                                                    for file in files:
+                                                        shutil.move(
+                                                            os.path.join(self.source_folder, file),
+                                                            os.path.join(destination_folder, file)
+                                                        )
+                                                        print(f"Moved file '{file}' to folder: {destination_folder}")
+
+                                                def analyze_code_files(self):
+                                                    """Analyzes all code files in the source folder."""
+                                                    files = self._get_files_by_extensions(['.py'])
+                                                    for file in files:
+                                                        text = self._read_text_file(file)
+                                                        ohl = self._calculate_optimized_huffman_length(text)
+                                                        print(f"Optimized Huffman length of '{file}': {ohl}")
+
+                                                def _sort_by_file_type_option(self):
+                                                    """Sorts files based on their file type."""
+                                                    extensions = ['.py', '.txt']
+                                                    for file in os.listdir(self.source_folder):
+                                                        if os.path.isfile(os.path.join(self.source_folder, file)):
+                                                            _, file_extension = os.path.splitext(file)
+                                                            destination_folder = os.path.join(self.source_folder, file_extension[1:])
+                                                            os.makedirs(destination_folder, exist_ok=True)
+                                                            shutil.move(
+                                                                os.path.join(self.source_folder, file),
+                                                                os.path.join(destination_folder, file)
+                                                            )
+                                                            print(f"Moved file '{file}' to folder: {destination_folder}")
+
+                                                def _sort_by_module_option(self):
+                                                    """Sorts files based on contained module names."""
+                                                    for file in os.listdir(self.source_folder):
+                                                        if os.path.isfile(os.path.join(self.source_folder, file)):
+                                                            _, file_extension = os.path.splitext(file)
+                                                            for module_name in self.module_names:
+                                                                if module_name in file.lower():
+                                                                    destination_folder = os.path.join(self.source_folder, module_name)
+                                                                    os.makedirs(destination_folder, exist_ok=True)
+                                                                    shutil.move(
+                                                                        os.path.join(self.source_folder, file),
+                                                                        os.path.join(destination_folder, file)
+                                                                    )
+                                                                    print(f"Moved file '{file}' to module folder: {destination_folder}")
+                                                                    break
+
+                                                def _get_files_by_extensions(self, extensions):
+                                                    """Finds all files with the given extensions in the source folder."""
+                                                    files = []
+                                                    for root, dirs, filenames in os.walk(self.source_folder):
+                                                        for filename in filenames:
+                                                            if os.path.splitext(filename)[1] in extensions:
+                                                                file_path = os.path.join(root, filename)
+                                                                files.append(file_path)
+                                                    return files
+
+                                                def _read_text_file(self, file_path):
+                                                    """Reads and returns the content of a text file."""
+                                                    with open(file_path, 'r') as file:
+                                                        return file.read()
+
+                                                def _calculate_optimized_huffman_length(self, data):
+                                                    """Calculates the optimized Huffman length of the given data."""
+                                                    frequency = self._calculate_frequencies(data)
+                                                    priority_queue = self._build_priority_queue(frequency)
+                                                    huffman_tree = self._build_huffman_tree(priority_queue)
+                                                    return self._calculate_huffman_length(huffman_tree, frequency)
+
+                                                def _calculate_frequencies(self, data):
+                                                    """Calculates the frequency of each character in the given data."""
+                                                    frequency = {}
+                                                    for char in data:
+                                                        if char in frequency:
+                                                            frequency[char] += 1
+                                                        else:
+                                                            frequency[char] = 1
+                                                    return frequency
+
+                                                def _build_priority_queue(self, frequency):
+                                                    """Builds a priority queue from the given frequency dictionary."""
+                                                    priority_queue = []
+                                                    for char, freq in frequency.items():
+                                                        heapq.heappush(priority_queue, (freq, char))
+                                                    return priority_queue
+
+                                                def _build_huffman_tree(self, priority_queue):
+                                                    """Builds a Huffman tree from the given priority queue."""
+                                                    while len(priority_queue) > 1:
+                                                        left_child = heapq.heappop(priority_queue)
+                                                        right_child = heapq.heappop(priority_queue)
+                                                        merged_node = (left_child[0] + right_child[0], left_child, right_child)
+                                                        heapq.heappush(priority_queue, merged_node)
+                                                    return priority_queue[0]
+
+                                                def _calculate_huffman_length(self, huffman_tree, frequency):
+                                                    """Calculates the Huffman length of the given Huffman tree and frequency dictionary."""
+                                                    if isinstance(huffman_tree[1], str):
+                                                        return huffman_tree[0] * frequency[huffman_tree[1]]
+                                                    else:
+                                                        return (self._calculate_huffman_length(huffman_tree[1], frequency) +
+                                                                self._calculate_huffman_length(huffman_tree[2], frequency))
+                                            huffman_dict = self._build_huffman_dict(huffman_tree)
+
+                                            ohl = 0
+                                            for symbol in data:
+                                                ohl += len(huffman_dict[symbol])
+                                            return ohl
+
+                                        def _calculate_frequencies(self, data):
+                                            """Calculates the frequency of each symbol in the given data."""
+                                            frequency = {}
+                                            for symbol in data:
+                                                if symbol in frequency:
+                                                    frequency[symbol] += 1
+                                                else:
+                                                    frequency[symbol] = 1
+                                            return frequency
+
+                                        def _build_priority_queue(self, frequency):
+                                            """Builds a priority queue from the given symbol frequencies."""
+                                            priority_queue = []
+                                            for symbol, freq in frequency.items():
+                                                heapq.heappush(priority_queue, [freq, symbol])
+                                            return priority_queue
+
+                                        def _build_huffman_tree(self, priority_queue):
+                                            """Builds a Huffman tree from the given priority queue."""
+                                            while len(priority_queue) > 1:
+                                                lo = heapq.heappop(priority_queue)
+                                                hi = heapq.heappop(priority_queue)
+                                                for pair in lo[1:]:
+                                                    pair[1] = '0' + pair[1]
+                                                for pair in hi[1:]:
+                                                    pair[1] = '1' + pair[1]
+                                                heapq.heappush(priority_queue, [lo[0] + hi[0]] + lo[1:] + hi[1:])
+                                            return priority_queue[0]
+
+                                        def _build_huffman_dict(self, huffman_tree):
+                                            """Builds a Huffman dictionary from the given Huffman tree."""
+                                            huffman_dict = {}
+                                            for pair in huffman_tree[1:]:
+                                                huffman_dict[pair[0]] = pair[1]
+                                            return huffman_dict
                                 ohl += len(huffman_dict[symbol])
 
                             return ohl
@@ -444,15 +604,15 @@ class LibrarySorter:
 
                     # Example usage
                     source_folder = 'path/to/source/folder'
-sorting_option = 'sorted_by'  # or 'file_type' o
-        sorter = LibrarySorter(source_folder)
-        sorter.create_folders()
-        sorter.sort_folders(sorting_option)
-        sorter.export_to_folder(destination_folder)
-        sorter.analyze_code_files()
+sorting_option = 'sorted_by'  # or 'file_type'
+sorter = LibrarySorter(source_folder)
+sorter.create_folders()
+sorter.sort_folders(sorting_option)
+sorter.export_to_folder(destination_folder)
+sorter.analyze_code_files()
 
-        # Example usage with combining PDFs
-        output_name = 'combined_document'
+# Example usage with combining PDFs
+output_name = 'combined_document'
         files_to_combine = [
             'file1.pdf',
             'file2.pdf',
