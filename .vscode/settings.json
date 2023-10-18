@@ -4,5 +4,58 @@
     ],
     "python.autoComplete.extraPaths": [
         "c:\\Users\\chudds\\.vscode\\extensions\\continue.continue-0.0.412-win32-x64"
-    ]
+    ],
+    "editor.renderWhitespace": "all",
+    "editor.cursorStyle": "block-outline",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.columnSelection": false,
+    "editor.experimental.asyncTokenization": true,
+    "editor.experimental.asyncTokenizationLogging": true,
+    "editor.tabCompletion": "on",
+    "editor.formatOnPaste": false,
+    "diffEditor.codeLens": true,
+    "diffEditor.experimental.showMoves": true,
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on"
+    },
+    "editor.suggest.shareSuggestSelections": true,
+    "files.autoGuessEncoding": true,
+    "files.simpleDialog.enable": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.commandPalette.experimental.suggestCommands": true,
+    "workbench.editor.autoLockGroups": {
+        "default": true,
+        "jsProfileVisualizer.heapprofile.table": true,
+        "gitlens.rebase": true,
+        "pdf.preview": true,
+        "workbench.input.interactive": true,
+        "mainThreadWebview-markdown.preview": true
+    },
+    "editor.defaultFormatter": "GitHub.copilot",
+    "CodeGPT.model": "CodeGPT Plus",
+    "django.snippets.exclude": [
+        "cms",
+        "wagtail"
+    ],
+    "cloudcode.duetAI.languages": [
+        "python"
+    ],
+    "editor.defaultFoldingRangeProvider": "GitHub.copilot",
+    "pythonTestExplorer.testFramework": "pytest",
+    "pythonTestExplorer.testplanEnabled": true,
+    "python.globalModuleInstallation": true,
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.testing.unittestEnabled": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.enablePytestExtra": false,
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "jupyter.exportWithOutputEnabled": true,
+    "python.testing.pytestEnabled": true
 }
