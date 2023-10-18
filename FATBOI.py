@@ -4,7 +4,8 @@ import logging
 import tkinter as tk
 from tkinter import filedialog
 import PyPDF2
-from langdetect import detect
+from langdetect import detect_encoding(readline)
+
 from textblob import TextBlob
 from sympy import *
 from sympy.parsing.sympy_parser import (
