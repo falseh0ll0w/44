@@ -1,7 +1,5 @@
 import tkinter as tk
 from tkinter import filedialog
-from typing import Tuple
-
 
 from sympy import latex
 from sympy.parsing.sympy_parser import (
