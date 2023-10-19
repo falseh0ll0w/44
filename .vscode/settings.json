@@ -57,5 +57,6 @@
     "python.analysis.inlayHints.variableTypes": true,
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
     "jupyter.exportWithOutputEnabled": true,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "CodeGPT.organizationId": "CodeGPT"
 }
