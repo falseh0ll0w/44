@@ -1,0 +1,32 @@
+Signature-Version: 1.0
+Created-By: 11.0.17 (Eclipse Adoptium)
+SHA-256-Digest-Manifest: +51TnNWFKRoB4ZRV/jRXau3cRgcpB5dosISQzVkJQfQ=
+SHA-256-Digest-Manifest-Main-Attributes: O4OakbKdoHEoVbCRM7dPpWkwxWNg6y1
+ E6O71C+7VhUg=
+
+Name: libs/org.apache.lucene.analyzers-common_8.4.1.v20200122-1459.jar
+SHA-256-Digest: XXLCRv5CaxFqVDqihv3S3FzbQtPqeZKgrEkoLKuXufo=
+
+Name: shared_core.jar
+SHA-256-Digest: qf64NDvtK9YznmODF4DjaFnrMDLuMijq5lcU4Y9M9VE=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.shared_core/pom.x
+ ml
+SHA-256-Digest: LmAkw7LVD7T7DaoT5mklqdygpsCmeWjpSj0BSF/XaD8=
+
+Name: libs/org.apache.lucene.core_8.4.1.v20200122-1459.jar
+SHA-256-Digest: +uRmCPA8tJe5x0C+9gHF/SzXPr3nBeIn2NposSGbYJc=
+
+Name: LICENSE.txt
+SHA-256-Digest: fOblq82f98B3/rdOvYeVcVMcOSswqgq/CeoQ+yHS1HM=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.shared_core/pom.p
+ roperties
+SHA-256-Digest: lDxVllZxXk/p0Wb8WLPcyhxjgES1IsX3ZoiOK3pJlJU=
+
+Name: libs/snakeyaml-engine-2.1-20200105.160423-4.jar
+SHA-256-Digest: tnv0ts7wSDX+8WKyExa8SJDP8ywaGmejlgF1s2e1JvA=
+
+Name: libs/README.txt
+SHA-256-Digest: BwM30lhbrKEQEPwsqVbUyWjwLPehQun/4sobwcEtN7U=
+

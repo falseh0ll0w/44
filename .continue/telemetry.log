@@ -1,0 +1,636 @@
+session_started: {'session_id': None}
+NO_UNIQUE_ID
+False
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'd8841873-f6fc-4204-9c63-ab3c5dfe3906'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+NO_UNIQUE_ID
+False
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '98844949-1f66-4d6f-99a8-e7dc0c8eaea5'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '4b3fe62d-b78b-4e03-9386-c86c6e7b3f86'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '566eebd3-2fbd-42bd-950d-e5ab39b1c6dc'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '5d076c0d-3058-44f3-a9cd-afa98025b002'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '6e98d84a-ea7e-4970-b594-a02cd8c80cee'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'c2ccfaa3-ea03-4f17-bcab-15eedf17a7d0'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '983bccfe-e6f5-4e2e-af6f-08712d9cf6ec'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'User Input', 'params': {'name': 'User Input', 'hide': False, 'description': '', 'class_name': 'UserInputStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': True, 'user_input': 'help me fix this'}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'Generating Response...', 'params': {'name': 'Generating Response...', 'hide': False, 'description': '', 'class_name': 'SimpleChatStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': True, 'messages': None}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+model_use: {'model': 'gpt-4', 'provider': 'OpenAIFreeTrial'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+tokens_generated: {'model': 'gpt-4', 'tokens': 224}
+NO_UNIQUE_ID
+False
+
+tokens_generated: {'model': 'gpt-3.5-turbo', 'tokens': 14}
+NO_UNIQUE_ID
+False
+
+tokens_generated: {'model': 'gpt-3.5-turbo', 'tokens': 12}
+NO_UNIQUE_ID
+False
+
+session_ended: {'session_id': '4f8252d3-12fb-45cf-85df-9fc09ff4adcc'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '85121cab-ebd7-4132-8404-f9d602c3f364'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '43668cec-a722-46fa-90cf-f06123f892f6'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '6219992b-d95b-42c2-aaa2-40fc65b3f217'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'b415aa54-c18c-4d05-900d-1996ac1c8074'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '90baf392-c6c4-40ba-9331-886848743cfa'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'fd0a9658-f9f1-4524-8181-a217dc421845'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'a6f1c69f-55bd-49f2-94f9-eb9c05a9e29c'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '52f7ac1d-4b6f-48c4-a3c0-aa0fcbb542f1'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '1e701d41-6e76-481b-94dd-b36107e8f262'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+NO_UNIQUE_ID
+False
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '2a16d43a-e7d4-463a-86f9-864a054e8433'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '53893953-ace2-4ece-be2b-0764d1d7a686'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'b7d1c2c9-5936-40db-8df7-5306dee47460'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'f7780356-d2de-4d3a-a31f-fdf82ca68042'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'f5401165-e6ee-4409-ab1f-2885369f3279'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '4b964258-d6a2-47dd-af3f-979e697a961e'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'b710a0b0-3ea8-4091-a09a-b61171e178d8'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'd837053b-0ef7-4bc9-ac24-e3be87941035'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '8e7beccb-e8bf-451c-a5c9-052c9ffc64f4'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'd804255e-e0cd-4bdf-83c7-c1e3a50da3fe'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '36f270ec-0613-4712-a4c9-9e8f24074b6d'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '7697c23e-28aa-4b59-a6e9-35cbf0a33ea4'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '580608b5-83fd-4a71-b15d-02b9b7ecae9e'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'User Input', 'params': {'name': 'User Input', 'hide': False, 'description': '', 'class_name': 'UserInputStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': True, 'user_input': '#\tnew file:   .pydev_vscode/java19/jdk-19.0.2+7-jre/legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO\n#\tnew file:   .pydev_vscode/java19/jdk-19.0.2+7-jre/legal/java.xml.crypto/ASSEMBLY_EXCEPTION\n#\tnew file:   .pydev_vscode/java19/jdk-19.0.2+7-jre/legal/java.xml.crypto/LICENSE\n#\tnew file:   .pydev_vscode/java19/jdk-19.0.2+7-jre/legal/java.xml.crypto/santuario.md\n#\tnew file:   .pydev_vscode/java19/jdk-19.0.2+7-jre/legal/java.xml/ADDITIONAL_LICENSE_INFO\n#\tnew file:   .pydev_vscode/java19/jdk-19.0.2+7-jre/legal/java.xml/ASSEMBLY_EXCEPTION\n\n\nHow do I fix this problem in the above code?: "santuario": Unknown word.'}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'Generating Response...', 'params': {'name': 'Generating Response...', 'hide': False, 'description': '', 'class_name': 'SimpleChatStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': True, 'messages': None}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+model_use: {'model': 'gpt-4', 'provider': 'OpenAIFreeTrial'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+tokens_generated: {'model': 'gpt-4', 'tokens': 222}
+NO_UNIQUE_ID
+False
+
+tokens_generated: {'model': 'gpt-3.5-turbo', 'tokens': 15}
+NO_UNIQUE_ID
+False
+
+tokens_generated: {'model': 'gpt-3.5-turbo', 'tokens': 12}
+NO_UNIQUE_ID
+False
+
+session_ended: {'session_id': 'c553c0a6-703b-4638-bcac-54fdcf59230f'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'b7e8b17f-2748-4fd3-b848-41e31573b35a'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '6df70255-0bd1-4d59-9725-2f0b78aa9653'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': 'bbb349b8-90ac-4648-b70c-5986acf8f77c'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_ended: {'session_id': '66cbe450-4d3e-4f98-9a18-00c3139c04bc'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_started: {'session_id': None}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+session_start: {'os': 'nt'}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+
+step run: {'step_name': 'StepsOnStartupStep', 'params': {'name': 'StepsOnStartupStep', 'hide': True, 'description': '', 'class_name': 'StepsOnStartupStep', 'system_message': None, 'chat_context': [], 'manage_own_chat_context': False}}
+5fe8e89aacf083447585670140921140b548a35a97ca273b96e41b11121efa11
+True
+

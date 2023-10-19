@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.2
+Build-Jdk-Spec: 11
+Bundle-ManifestVersion: 2
+Bundle-Name: PyDevLSP
+Bundle-SymbolicName: org.python.pydev.pydev_lsp;singleton:=true
+Bundle-Version: 0.4.0.202305071354
+Bundle-Activator: org.python.pydev.pydev_lsp.PyDevLanguageServerPlugin
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.lsp4j;bundle-versio
+ n="[0.12.0,0.12.1]",org.eclipse.core.resources,org.eclipse.lsp4j.jsonrp
+ c;bundle-version="[0.12.0,0.12.1]",org.eclipse.core.filebuffers,org.ecl
+ ipse.ls.core,org.eclipse.text,org.python.pydev.core,org.python.pydev.as
+ t,org.python.pydev.shared_core,org.python.pydev.parser,com.python.pydev
+ .analysis,com.google.gson;bundle-version="[2.8.6,2.9.0)"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Brainwy Software Ltda
+Export-Package: org.python.pydev.pydev_lsp,org.python.pydev.pydev_lsp.co
+ mpletions,org.python.pydev.pydev_lsp.settings
+Automatic-Module-Name: org.python.pydev.pydev.lsp
+
