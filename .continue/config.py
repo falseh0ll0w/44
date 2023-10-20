@@ -11,8 +11,7 @@ from continuedev.libs.llm import OpenAIFreeTrial
 from continuedev.plugins.context_providers import (
     DiffContextProvider,
     TerminalContextProvider,
-    URLContextProvider,
-    GitHubIssuesContextProvider
+    URLContextProvider
 )
 from continuedev.plugins.steps import (
     ClearHistoryStep,
