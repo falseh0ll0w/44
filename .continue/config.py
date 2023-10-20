@@ -72,8 +72,8 @@ config = ContinueConfig(
     ],
     context_providers=[
         # GitHubIssuesContextProvider(
-        #     repo_name="<your github username or organization>/<your repo name>",
-        #     auth_token="<your github auth token>"
+        #     repo_name="falseh0ll0w/44",
+        #     auth_token="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"
         # ),
         DiffContextProvider(),
         URLContextProvider(

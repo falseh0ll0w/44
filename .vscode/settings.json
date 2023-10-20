@@ -58,5 +58,6 @@
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
     "jupyter.exportWithOutputEnabled": true,
     "python.testing.pytestEnabled": true,
-    "CodeGPT.organizationId": "CodeGPT"
+    "CodeGPT.organizationId": "CodeGPT",
+    "CodeGPT.maxTokens": 2000
 }
