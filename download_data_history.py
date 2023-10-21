@@ -1,3 +1,4 @@
+import json
 import requests
 
 def download_data_history():
@@ -21,4 +22,5 @@ def download_data_history():
     print("Data history downloaded successfully!")
 
 # Call the function to download the data history
-download_data_history()
+if __name__ == '__main__':
+    download_data_history()
