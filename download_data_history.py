@@ -16,7 +16,6 @@ def copy_script(source, target):
     with open(os.path.join(target, os.path.basename(source)), 'w') as f:
         f.write(script_code)
 
-if __name__ == '__main__':
     script_dir = get_script_directory()
     script_path = os.path.join(script_dir, os.path.basename(sys.argv[0]))
     target_dir = get_target_directory()
