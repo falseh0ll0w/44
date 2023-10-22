@@ -1,26 +1,23 @@
-import json
-import requests
+import os
+import sys
 
-def download_data_history():
-    """Downloads the data history of the conversations."""
-    # Replace 'YOUR_API_KEY' with your actual API key
-    api_key = 'YOUR_API_KEY'
-    endpoint = 'https://api.openai.com/v1/conversations'
+def get_script_directory():
+    return os.path.dirname(os.path.abspath(__file__))
 
-    headers = {
-        'Content-Type': 'application/json',
-        'Authorization': f'Bearer {api_key}'
-    }
+def get_target_directory():
+    # Logic to find target directory
+    # Could search up directory tree for a specific file/folder
+    # Or use a predefined location
+    return '/path/to/target/directory'
 
-    response = requests.get(endpoint, headers=headers)
-    data = response.json()
+def copy_script(source, target):
+    with open(source) as f:
+        script_code = f.read()
+    with open(os.path.join(target, os.path.basename(source)), 'w') as f:
+        f.write(script_code)
 
-    # Save the data history to a file
-    with open('data_history.json', 'w') as file:
-        file.write(json.dumps(data, indent=4))
-
-    print("Data history downloaded successfully!")
-
-# Call the function to download the data history
 if __name__ == '__main__':
-    download_data_history()
+    script_dir = get_script_directory()
+    script_path = os.path.join(script_dir, os.path.basename(sys.argv[0]))
+    target_dir = get_target_directory()
+    copy_script(script_path, target_dir)
