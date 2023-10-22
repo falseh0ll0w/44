@@ -1,0 +1,6 @@
+# Install Pylance
+code --install-extension ms-python.vscode-pylance
+
+# Create pip.conf file with custom index URL
+echo "[global]" >> %APPDATA%\pip\pip.conf
+echo "index-url = https://ryan.forrestall@gmail.com:cmVmdGtuOjAxOjE3MjkzOTk3Njc6a3Q0NFpsNzJrNHRXU05ZMndRVFVTZzJiSTZR@mother.jfrog.io/artifactory/api/pypi/pypi/simple" >> %APPDATA%\pip\pip.conf
