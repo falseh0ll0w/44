@@ -60,5 +60,8 @@
     "python.testing.pytestEnabled": true,
     "CodeGPT.organizationId": "CodeGPT",
     "CodeGPT.maxTokens": 2000,
-    "github.copilot.advanced": {}
+    "github.copilot.advanced": {},
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
 }
