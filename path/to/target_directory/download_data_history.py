@@ -43,14 +43,11 @@ def create_version():
     script_path = os.path.join(script_dir, os.path.basename(sys.argv[0]))
     version = 1
     while True:
-        sionpt_path = os.name,in(s"{os.path.splitextextpa= basename(sys.argv[0]))[0]}_{version}.py"){scrit_ext}
-        versioned_script_path = os.path.join(script_dir, f"{script_name
+        versioned_script_path = os.path.join(script_dir, f"{os.path.splitext(os.path.basename(sys.argv[0]))[0]}_{version}.py")
         if not os.path.exists(versioned_script_path):
             shutil.copy(script_path, versioned_script_path)
             break
-# Get the script directory
         version += 1
-
 
 script_dir = get_script_directory()
 script_path = os.path.join(script_dir, os.path.basename(sys.argv[0]))
@@ -61,5 +58,3 @@ if not os.path.exists(script_path):
     create_version()
 else:
     copy_script(script_path, target_dir)
-    sconpt_nam_ext, scriptsplteos.path.joibet_ph =h.join odtmef"{scris.papapath))
-    sionpt_path = os.name,in(s"{os.path.splitextextpa= basename(sys.argv[0]))[0]}_{version}.py"){scrit_ext}
