@@ -42,8 +42,6 @@ scrape_button.pack()
 
 # Run the main window's event loop
 window.mainloop()
-> web_scraper.py
-```python
 # Import necessary libraries
 import requests
 

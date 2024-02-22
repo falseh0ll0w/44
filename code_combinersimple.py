@@ -7,7 +7,6 @@ def combine_code(output_file, *input_files):
         with open(input_file, 'r') as file:
             code = file.read()
             combined_code += code + '\n\n'
-    
     with open(output_file, 'w') as file:
         file.write(combined_code)
 
